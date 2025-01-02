@@ -1,0 +1,65 @@
+body{
+  font-family: Sans-serif;
+}
+h1{
+  background-color: rgb(13, 175, 167);
+  color: white;
+  padding: 5vw;
+  text-align: center;
+  margin: 0 !important;
+}
+button{
+  background-color: rgb(45, 148, 189);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  /* margin: 20px; */
+  cursor: pointer;
+  display: block;
+  margin: 20px 0px;
+}
+table{
+  width: 85%;
+  margin: auto;
+  margin-top: 8%;
+  border: 1px solid rgb(63, 231, 223);
+}
+thead{
+  background-color: rgb(8, 196, 186);
+  color: white;
+}
+th, td{
+  padding: 10px 20px;
+  text-align: center;
+}
+label{
+  display: block;
+  margin: 15px 0px;
+}
+form{
+  /* border: 1px solid red; */
+  padding: 10px 30px;
+  width: 35%;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 1px 1px 2px 2px rgba(131, 129, 129, 0.24);
+}
+#planTripBtn{
+  margin: 20px;
+}
+input{
+  width: 90%;
+  height: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.363);
+  padding: 8px;
+  font-size: 1.1vw;
+}
+#backBtn{
+  margin: 1em 22em;
+}
+#success{
+  color: rgb(13, 175, 167);
+  font-weight: 800;
+}
